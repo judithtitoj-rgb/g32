@@ -1,0 +1,45 @@
+#padre{
+
+    background-color: steelblue;
+    height: 300px;
+    display: flex;
+    /*align-items: center;*/
+    /*align-items: end;
+    justify-content: center;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px; /*aplica para los 4 lados*/
+}
+.hijo{
+    background-color: blue;
+    border-radius: 10px;
+    width: 300px;
+    /*height: 300px;
+    margin: 10px;*/
+    box-shadow: 0 4px 10px gray;
+
+}
+
+.hijo:nth-child(1){
+    align-self: start;
+   
+}
+.hijo:nth-child(2){
+    
+    background-color: red;
+}
+
+.hijo:nth-child(3){
+    background-color: purple;
+    /*align-self: end;*/
+}
+
+@media (width < 900px) {
+    #padre{
+        /*gap:20px;*/
+        flex-direction: column;
+    }
+    .hijo:nth-child(3){
+        background-color: red;
+    }
+}

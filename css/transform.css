@@ -1,0 +1,30 @@
+#cajaPrincipal{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    /* transform: rotate(20deg);
+     */
+     /* transform:scale(1.5)  rotate(20deg) */
+    /* transform: skew(20deg, 20deg);
+    transform: translate(100px, 100px); */
+    
+
+
+}
+.cajas{
+
+    background-color: plum;
+    height: 100px;
+}
+
+#cajaPrincipal:hover{
+    transform: rotate(deg) scale(2);
+    filter: blur(8);
+}
+
+#gatito{
+    filter: drop-shadow(4px 4px 20px black);
+    /* box-shadow: 100px  100px 100px ; */
+
+}

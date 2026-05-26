@@ -1,0 +1,63 @@
+/**/
+button {
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 1s linear, color 1s;
+
+}
+/*cuando pasamos el mouse encima*/
+button:hover {
+    background-color: rgb(234, 236, 101);
+    color: red;
+
+}
+/*cuando damos click*/
+button:active{
+    background-color: rgb(74, 141, 96);
+}
+
+/*-----------*/
+/*cuando ya hemos visitado un link*/
+a:visited{
+    color:red;
+}
+
+/*enlance nuevo,que no hemos visitado*/
+
+a:link{
+    color:skyblue;
+}
+input{
+
+    border:0;
+    border-radius: 20px;
+}
+
+/*cuando mi atencion esta en un input*/
+input:focus{
+    background-color: antiquewhite;
+    box-shadow: 0 10px;
+}
+
+input:invalid{
+    background-color: crimson;
+}
+/*Lo inscrito dentro del imput cumple con elformato*/
+input:valid{
+
+    background-color: aquamarine;
+}
+/*pseudoclase : estados de un elemento
+pseudoelmento - elemento que se crean para aplicar estilos a otra clase*/
+p::selection{
+    background-color: red;
+}
+
+button:disabled{
+background-color: grey;
+color:rgb(241, 236, 236);
+cursor: not-allowed;
+
+}
