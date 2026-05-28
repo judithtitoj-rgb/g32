@@ -19,6 +19,7 @@
 }
 
 
+
 #cajaPrincipal:hover{
     transform: rotate(deg) scale(2);
     filter: blur(8);
